@@ -1,0 +1,36 @@
+body{
+    background-color: #ababab;
+}
+#one{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
+
+#picContainer{
+    width: 300px;
+    padding: 5px;
+    border: 5px solid #cccccc;
+    margin: 50px;
+}
+
+#picContainer img{
+    width: 130px;
+    border: 1px solid #ddd;
+    margin: 5px;
+}
+#picHov{
+    width: 700px;
+    height: 700px;
+    border: 2px dashed navy;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    display: none;
+}
+
+.msgbox p{
+    width: fit-content;
+    padding: 5px 10px;
+    background-color: olivedrab;
+}
